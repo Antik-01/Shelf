@@ -33,52 +33,6 @@ Searching for "Passport" displays: `Bedroom → Top Shelf → Blue Box`
 
 ---
 
-## Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/shelf.git
-cd shelf
-```
-
-### 2. Database Setup
-
-Start MySQL and create the database (or let Spring Boot create it automatically):
-
-```sql
-CREATE DATABASE IF NOT EXISTS shelf_db;
-```
-
-Update the credentials in `backend/src/main/resources/application.properties` if your MySQL username/password differs from `root/root`:
-
-```properties
-spring.datasource.username=root
-spring.datasource.password=root
-```
-
-### 3. Backend
-
-```bash
-cd backend
-mvn clean install
-mvn spring-boot:run
-```
-
-The backend starts at **http://localhost:8080**. Hibernate will auto-create the tables.
-
-### 4. Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-The frontend starts at **http://localhost:5173** and proxies API calls to the backend.
-
----
-
 ## Features
 
 | Feature           | Description                                      |
