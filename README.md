@@ -237,9 +237,6 @@ DELETE /api/items/{id}
   "locationPath": "Bedroom → Top Shelf → Blue Box"
 }
 ```
-
----
-
 # Project Structure
 
 ```
@@ -260,105 +257,6 @@ frontend/
 ├── pages
 └── assets
 ```
-
----
-
-# Getting Started
-
-## Clone the repository
-
-```bash
-git clone https://github.com/yourusername/shelf.git
-```
-
----
-
-## Backend
-
-```bash
-cd backend
-
-mvn spring-boot:run
-```
-
-Runs on
-
-```
-http://localhost:8080
-```
-
----
-
-## Frontend
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-Runs on
-
-```
-http://localhost:5173
-```
-
----
-
-## Configure MySQL
-
-Create a database named
-
-```
-shelf_db
-```
-
-Import
-
-```
-schema.sql
-```
-
-Update the following values in
-
-```
-application.properties
-```
-
-```
-spring.datasource.url
-spring.datasource.username
-spring.datasource.password
-```
-
----
-
-# Screenshots
-
-> Screenshots will be added soon.
-
-- Dashboard
-- Rooms
-- Shelves
-- Boxes
-- Items
-- Search Page
-
----
-
-# Future Improvements
-
-- User Authentication
-- Barcode / QR Code support
-- Image upload for stored items
-- Export inventory as PDF or Excel
-- Pagination and sorting
-- Dark mode
-
----
-
 # What I Learned
 
 Building this project helped me understand:
