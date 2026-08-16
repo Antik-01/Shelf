@@ -1,6 +1,5 @@
 -- ================================================================
--- Shelf - Storage Management System
--- Database Schema for MySQL
+-- Shelf, Database Schema for MySQL
 -- ================================================================
 -- Note: If using Spring Boot with spring.jpa.hibernate.ddl-auto=update,
 -- these tables will be created automatically. This file is for reference.
